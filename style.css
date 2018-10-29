@@ -1,0 +1,399 @@
+/**
+  * ====================================
+  * Sets up styles for articles
+  * ====================================
+  */
+  article {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  
+  /* 
+  ====================================
+  Sets up styles for sidebar / navigation containers
+  ====================================
+  */
+  nav a {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+  }
+  
+  a {
+    color: blue;
+    transition: color 0.25s;
+  }
+  
+  a:hover {
+    color: magenta;
+    font-weight: bold;
+  }
+  
+  .sidebar-logo {
+    width: 150px;
+  }
+  
+  .center p {
+    text-align: center;
+  }
+  
+  /* 
+  ===========================
+  Sets up styles for logos 
+  ============================
+  */
+  
+  .section-logo {
+    width: 425px;
+    height: 100%;
+  }
+  
+  /* 
+  ===========================
+  Sets up styles for typography 
+  ============================
+  */
+  
+  /* Sets up font-face for body copy */ 
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 1.4em;
+  }
+  
+  /* Sets up font-face for headers */ 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Open Sans", sans-serif;
+    color: navy;
+    line-height: 1em;
+  }
+  
+  /* Sets up font-weights for headers */ 
+  h1 {
+    font-weight: 700;
+  }
+  
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+  }
+  
+  .type-styles {
+    margin-top: 40px;
+  }
+  
+  .type-faces {
+    margin-top: 40px;
+  }
+  
+  .type-faces-01 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .type-faces-02 {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  
+  /* 
+  ==========================
+  Sets up styles for colors 
+  ===========================
+  */
+  
+  /* Makes a circle shape to serve a color box */ 
+  
+  .color-shape {
+    display: block;
+    text-align: center;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    margin: 0.5em;
+    border: 1px solid white;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Makes colors */ 
+  .color-red {
+    background: red;
+  }
+  
+  .color-orange {
+    background: orange;
+  }
+  
+  .color-yellow {
+    background: yellow;
+  }
+  
+  .color-green {
+    background: green;
+  }
+  
+  .color-blue {
+    background: blue;
+  }
+  
+  .color-purple {
+    background: indigo;
+  }
+  
+  .color-black {
+    background: black;
+  }
+  
+  .color-gray {
+    background: gray;
+  }
+  
+  /* 
+  =========================== 
+  Sets up styles for button 
+  ============================ 
+  */
+   
+  .button button {
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+  }
+  
+  .button-normal {
+    background: rgb(51, 51, 102);
+    color: rgb(255, 255, 255);
+  }
+  
+  .button-hover {
+    background: rgb(215, 215, 215);
+    color: rgb(51, 51, 102);
+  }
+  
+  .button-pressed,
+  .button-loading {
+    background: rgb(215, 215, 215);
+    color: rgb(51, 51, 102);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  .button-disabled {
+  
+  }
+  
+  /* 
+  ==========================
+  Sets up styles for icons 
+  ===========================
+  */
+  
+  /* TO ADD FONT AWESOME ICONS GO TO THIS LINK AND COPY THE CSS LINK
+  https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fonts-with-css
+  */
+  
+  /* USPS iconography */
+  .usps-icons i {
+    margin-top: 40px;
+    font-size: 30px;
+    color: rgb(51, 51, 102);
+  }
+  
+  .svg-icons img {
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* footer iconography */
+  .social-icons i {
+    font-size: 44px;
+    color: tomato;
+  }
+  
+  .social-icons i:hover {
+    color: magenta;
+  }
+  
+  /* 
+  ===========================
+  Sets up styles for images 
+  ============================
+  */
+  
+  #Imagery img {
+    padding: 10px;
+  }
+  /* 
+====================================
+Sets up styles for .sidebar-container 
+====================================
+*/
+
+nav {
+    top: 0;
+  }
+  
+nav a,
+nav h2 {
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.sidebar-container {
+    /* background: linear-gradient( #F8D353, #FF5C5A); */
+    height: 100%;
+    position: fixed;
+    padding: 60px;
+    width: 180px;
+}
+
+/* 
+====================================
+Sets up styles for .content-container 
+====================================
+*/
+
+/* Positions section container in relation to .sidebar-container */
+.section-container {
+    /* background: yellow; */
+    margin-top: 40px;
+    margin-left: 290px;
+    padding: 30px 30px;
+    height: 100%;
+}
+
+/* Sets max width for content and align content in middle of section-container */
+.content-container {
+    /* background: lightskyblue; */
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+/* Sets row behavior using flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.row-container-no-wrap {
+    width: 100%;
+    display: flex;
+    /* sets spacing between elements in container */
+    justify-content: space-between;
+    flex-wrap: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.row-container {
+    width: 100%;
+    display: flex;
+    /* sets spacing between elements in container */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.row-container-around {
+    width: 100%;
+    display: flex;
+    /* sets spacing between elements in container */
+    justify-content: space-around;
+    /* makes flexbox responsive on mobile */
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/* Hides mobile navigation on desktop */
+.mobile-nav {
+    display: none;
+}
+
+/* 
+====================================
+Sets up styles for mobile breakpoint 
+====================================
+*/
+
+/* Sets media query for screens below 450px wide */
+@media only screen and (max-width: 450px) {
+
+    /* Position nav at the top */
+      nav {
+        position: fixed;
+        left: 0;
+    }
+
+    /* Shows Mobile Navigation Styles  */
+      .mobile-nav {
+        background: white;
+        width: 100%;
+        padding: 10px 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        height: 80px;
+        margin: 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+    /* Sets max width for logos in mobile nav */
+    .mobile-nav img {
+        height: 80px;
+    }
+
+    /* Hides Sidebar */
+    .sidebar-container {
+        display: none;
+    }
+  
+    /* Defines mobile container content */
+    .section-container {
+        /* background: lightskyblue; */
+        margin-top: 60px;
+        margin-left: 0px;
+        height: 100%;
+    }
+
+    /* Sets Type Styles */
+    h1 {
+        font-size: 1.6em;
+    }
+
+
+    .row-container-no-wrap {
+        flex-wrap: wrap;
+    }
+
+    #Logo .section-logo {
+        width: 300px;
+        height: 100%;
+    }
+
+
+}
+
+/* 
+====================================
+BONUS: Sets up css code snippet styles 
+====================================
+*/
+
+pre {
+    background: rgb(209, 232, 249);
+    max-height: 85px;
+    /* Makes content scrollable if it is taller than 85px */
+    overflow: scroll;
+    padding: 0.5em;
+    border-radius: 4px;
+    /* Makes inner box shadow */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+}
